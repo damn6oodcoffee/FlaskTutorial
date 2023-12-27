@@ -1,0 +1,4 @@
+In powershell:
+    $env:FLASK_APP="flaskblog.py"
+    $env:FLASK_DEBUG='1' // For applying changes without restart
+    flask run
