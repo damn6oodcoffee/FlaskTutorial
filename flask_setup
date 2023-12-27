@@ -1,0 +1,8 @@
+In powershell:
+    $env:FLASK_APP="flaskblog.py"
+    $env:FLASK_DEBUG='1' // For applying changes without restart
+    flask run
+
+Or add to python file (flaskblog.py):
+    if __name__ == '__main__':
+        app.run(debug=True)
